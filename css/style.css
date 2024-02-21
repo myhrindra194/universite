@@ -4,16 +4,22 @@
     box-sizing: border-box;
 }
 
+.text-colored {
+    color: blueviolet;
+}
+
 .banner {
     overflow-x: hidden;
 }
+
 .nav-link {
     position: relative;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 0.3px;
     padding: 0 5px;
 }
-.nav-link ::after{
+
+.nav-link ::after {
     content: "";
     position: absolute;
     background-color: blueviolet;
@@ -22,10 +28,12 @@
     left: 0;
     bottom: -7px;
 }
+
 .nav-link :hover::after {
     width: 100%;
     transition: 0.3s;
 }
+
 .nav-link :hover {
     color: blueviolet;
 
@@ -64,6 +72,14 @@
     padding: 6.5px;
 }
 
+.btn-outline-custom-plus {
+    color: blueviolet;
+    background-color: white;
+    border: solid 2px blueviolet;
+    border-radius: 5px;
+    font-size: large;
+    padding: 7px 30px;
+}
 
 .banner-text {
     font-size: 5rem;
@@ -94,7 +110,7 @@ footer {
     cursor: pointer;
 }
 
-li {
+.li-list {
     list-style: none;
 }
 
